@@ -1,0 +1,29 @@
+<?php
+class Frontend_Controller extends MY_Controller{
+    
+    function __construct() {
+        parent::__construct();
+        $data = array();
+        // Load library template
+        $this->load->library('template');
+        // Set template
+        $this->template->set_template('frontend');          
+        // Add DocType
+        $this->template->add_doctype();
+          
+        // Parse data into view 
+        $this->template->parse_view('footer','frontend/shop/footer',$data);
+        $this->template->parse_view('main','frontend/shop/main',$data);
+        
+        //$this->template->parse_view('sidebar','frontend/shop/sidebar',$data);
+        //$this->template->parse_view('header_nav','frontend/shop/header_nav',$data);
+    }
+    function is_login(){
+        $is_logged = $this->session->userdata('is_logged');
+        if(isset($is_logged) && $is_logged == true)
+            return true;
+        else
+            return false;
+    }
+}
+
