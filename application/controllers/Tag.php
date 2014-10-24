@@ -15,5 +15,6 @@ class Tag extends Backend_Controller {
         echo "<pre>";var_dump($data['tags']);die;
         $this->template->write_view('content', 'dashboard/tag_view', $data, true);
         $this->template->render();
+        echo "cccc";
     }
 }
