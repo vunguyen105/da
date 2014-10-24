@@ -480,3 +480,135 @@ class dashboard extends Backend_Controller {
     }
 
 }
+
+
+
+
+
+
+
+
+MỞ ĐẦU
+
+T
+rong sự phát triển nhanh như vũ bão của xã hội công nghệ thông tin hiện nay, số lượng thông tin ngày càng nhiều và trở nên quá tải đối với tất cả chúng ta khiến cho việc tìm kiếm trở nên khó khăn và sự chính xác của thông tin cũng bị ảnh hưởng rất nhiều. Trong khi đó, nhu cầu cập nhật, giải trí và tìm kiếm thông tin của xã hội ngày càng cao – đặc biệt là đối với thông tin giải trí về game, đòi hỏi phải có sự chính xác, nhanh chóng và kịp thời của những thông tin củng là điều tất yếu và cần thiết nhất .
+Chính vì nguyên nhân đã nêu trên, em xin chọn đề tài nghiên cứu “Xây Dựng Website Tin Tức Giải Trí Về Game Trên Nền Tảng Codeigniter Framework”, nhằm mục đích góp một phần công sức nhỏ bé của mình trong việc chọn lọc và cập nhật các thông tin giải trí chính xác và nhanh chóng, giúp cho việc tìm kiếm và cập nhật thông tin của những người có nhu cầu về lĩnh vực tin tức giải trí về game không còn gặp khó khăn nữa.
+Đề tài này được nghiên cứu và xây dựng trong phạm vi nhà trường kết hợp với các nhu cầu thực tiễn của xã hội. Phương pháp nghiên cứu đề tài là tự nghiên cứu,  thông qua các tài liệu tham khảo trên internet và tài liệu giấy. 
+Về phần nội dung của đề tài nghiên cứu này, sẽ có ba phần chính là: giới thiệu về Framework, tiếp theo là cách cài đặt - sử dụng Framework củng như giới thiệu về website và các vấn đề liên quan khác. Cuối cùng, là phần tài liệu tham khảo và các hướng phát triển đề tài trong tương lai. 
+ 
+LỜI CẢM ƠN
+
+Trong quá trình nghiên cứu và xây dựng đề tài, có rất nhiều trở ngại và khó khăn gặp phải như: tìm hiểu thực tế, nhu cầu thực sự của xã hội, tìm hiểu framework, các tài liệu liên quan,..,và còn rất nhiều khó khăn khác.
+Chính vì thế đề tài nghiên cứu chưa được hoàn thiện như mong muốn được, nhưng nhờ sự trợ giúp nhiệt tình và cụ thể của giáo viên hướng dẫn, các tài liệu nghiên cứu được đăng tải tải trên internet nên đề tài đã trở nên hoàn thiện đến mức cao nhất có thể. Em xin cám ơn chân thành đến giáo viên hướng dẫn và những người đã giúp đỡ, góp ý cho đề tài nghiên cứu này.
+ 
+NHẬN XÉT
+CỦA GIÁO VIÊN HƯỚNG DẪN
+
+…………………………………………………………………………………………….
+…………………………………………………………………………………………….
+…………………………………………………………………………………………….
+…………………………………………………………………………………………….
+…………………………………………………………………………………………….
+…………………………………………………………………………………………….
+…………………………………………………………………………………………….
+…………………………………………………………………………………………….
+…………………………………………………………………………………………….
+…………………………………………………………………………………………….
+…………………………………………………………………………………………….
+…………………………………………………………………………………………….
+…………………………………………………………………………………………….
+…………………………………………………………………………………………….
+…………………………………………………………………………………………….
+…………………………………………………………………………………………….
+…………………………………………………………………………………………….
+…………………………………………………………………………………………….
+…………………………………………………………………………………………….
+NHẬN XÉT
+CỦA GIÁO VIÊN PHẢN BIỆN
+
+…………………………………………………………………………………………….
+…………………………………………………………………………………………….
+…………………………………………………………………………………………….
+…………………………………………………………………………………………….
+…………………………………………………………………………………………….
+…………………………………………………………………………………………….
+…………………………………………………………………………………………….
+…………………………………………………………………………………………….
+…………………………………………………………………………………………….
+…………………………………………………………………………………………….
+…………………………………………………………………………………………….
+…………………………………………………………………………………………….
+…………………………………………………………………………………………….
+…………………………………………………………………………………………….
+…………………………………………………………………………………………….
+…………………………………………………………………………………………….
+…………………………………………………………………………………………….
+…………………………………………………………………………………………….
+…………………………………………………………………………………………….
+MỤC LỤC
+
+Phần 1 : Giới thiệu về Codeigniter Framework……………………………...............1
+1.1	Giới thiệu chung về Codeigniter Framework……………………….……………1
+1.1.1 Codeigniter Framework là gì ?.................................................................................1
+1.2 Tại sao phải sử dụng Codeigniter Framework……………………………...........2 
+Phần 2 : Giới thiệu về website……………………………............................................3
+2.1 Giới thiệu chung về website…………………………………………………..........3
+2.2 Các chức năng chính của website…………………………………………………3
+2.2.1 Chức năng của người dùng (user)…………………………………………………3
+2.2.2 Chức năng của người quản trị (administrator)…………………………….………3
+2.3 Các bước cài đặt Codeigniter Framework…………………………..…………...4
+2.3.1 Cài đặt server giả lập localhost…………………………………………..………..4
+2.3.2 Cài đặt Codeigniter Framework………………………………………………….11
+2.4 Mô hình cơ sở dữ liệu của website……………………...……...……..………….12
+2.4.1 Mô hình quan hệ thực thể (ERD)………………….……………………..………12
+2.4.2 Mô hình vật lý (LPD)…………………...………………………………………..14
+2.4.3 Mô hình User – Case…………………………………………………..…………16
+2.4.3.1 Mô hình User – Case của người dùng………….………………………………16
+2.4.3.2 Mô hình User – Case của người quản trị…………………………....…………16
+2.5 Một số giao diện chính của website…………………………………..………….17
+2.5.1 Giao diện của người dùng (user)…………………………………………………17
+2.5.2 Giao diện của người quản trị (administrator)…………………………………….21
+Phần 3 : Hướng phát triển đề tài…………………………………………………….24 
+3.1 Những điều đã đạt được trong đề tài……………………………………………24
+3.2 Hướng phát triển đề tài trong tương lai………………………………………....24
+3.3 Tài liệu tham khảo sưu tầm…...…….………....……………………..………….24
+Tài liệu tham khảo………….......................………………………………………….25 
+
+
+ 
+DANH MỤC CÁC HÌNH, BẢNG BIỂU VÀ SƠ ĐỒ
+
+Hình 1.1 Logo của Codeigniter Framework…............................…………………….....2
+Hình 2.1 Cửa sổ cài đặt Wampserver bước 2.1.………………..........……………….....5
+Hình 2.2 Cửa sổ cài đặt Wampserver bước 2.2….…......................………………….....6
+Hình 2.3 Cửa sổ cài đặt Wampserver bước 2.3.…………………..........…………….....6
+Hình 2.4 Cửa sổ cài đặt Wampserver bước 2.4……….………………..........……….....7
+Hình 2.5 Cửa sổ cài đặt Wampserver bước 2.5…….…………………………......….....7
+Hình 2.6 Cửa sổ cài đặt Wampserver bước 2.6….……………………...………............8
+Hình 2.7 Cửa sổ cài đặt Wampserver bước 2.7.……………………………...................8
+Hình 2.8 Cửa sổ cài đặt Wampserver bước 2.8.…………………………………...........9
+Hình 2.9 Cửa sổ cài đặt Wampserver bước 2.9….………………………………….......9
+Hình 2.10 Thay đổi port của Apache….........……………………………………….....10
+Hình 2.11 Màn hình mặc định khi khởi động Wampserver…...…………………….....10
+Hình 2.12 Copy thư mục đề tài vào C:/wamp/www……..………………………….....11
+Hình 2.13 Chọn module có tên là rewrite_module………....……………………….....11
+Hình 2.14 Giao diện trang chủ…………….......................………………………….....11
+Hình 2.15 Mô hình ERD của website……………………………………………….....12
+Hình 2.16 Mô hình LPD của website……………………………………………….....15
+Hình 2.17 Mô hìn User-Case của user……….......………………………………….....16
+Hình 2.18 Mô hìn User-Case của administrator……........………………………….....16
+Hình 2.19 Giao diện trang chủ của website…………...…………………………….....17
+Hình 2.20 Giao diện trang  tin tức mới cập nhật………………....………………….....18
+Hình 2.21 Giao diện trang  đăng ký thành viên….………………………………….....19
+Hình 2.22 Giao diện trang đăng nhập……………………………………………….....19
+Hình 2.23 Giao diện trang thư viện hình ảnh............……………………………….....20
+Hình 2.24 Giao diện trang flash game hay………………………………………….....20
+Hình 2.25 Giao diện trang quản trị website………….......………………………….....21
+Hình 2.26 Giao diện trang quản lý slide show…………….......…………………….....22
+Hình 2.27 Giao diện trang thêm mới slide show……...…………………………….....22
+Hình 2.28 Giao diện trang sửa thông tin slide show……..………………………….....22
+Hình 2.29 Thông báo về việc xóa slide show……....................…………………….....23
+
+
+
+
